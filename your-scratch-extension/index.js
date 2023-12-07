@@ -25,7 +25,7 @@ class Scratch3CommandBlocks0 {
                     filter: [TargetType.SPRITE, TargetType.STAGE],
                     arguments: {
                         TEXT: {
-                            defaultValue: '',
+                            defaultValue: 'Hello, World!',
                             type: ArgumentType.STRING,
                         },
                     },
@@ -39,7 +39,7 @@ class Scratch3CommandBlocks0 {
                     arguments: {
                         NUMBERS: {
                             defaultValue: '',
-                            type: ArgumentType.NUMBERS,
+                            type: ArgumentType.NUMBER,
                         },
                     },
                 },
